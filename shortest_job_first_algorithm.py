@@ -49,3 +49,18 @@ time")
 # print(f"{key} \t\t {sorted_job[key][0]} \t\t {finish_waiting[key][0]}
 \t\t {finish_waiting[key][1]} \t\t {finish_waiting[key][0] -
 sorted_job[key][0]}")
+      
+      
+      
+# Number of jobs: 5
+# Arrival times: 1 9 10 12 13
+# Service times: 10 7 1 1 8
+# Job Arrival Time Finish Time Waiting Time Turn Around Time
+# 0 1 11 0 10
+# 1 9 20 4 11
+# 2 10 12 1 2
+# 3 12 13 0 1
+# 4 13 28 7 15
+# Average Waiting Time : 2.4 unit time
+# Average Turnaround TIme : 7.8 unit time
+# Process finished with exit code 0
